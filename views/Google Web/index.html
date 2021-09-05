@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Google</title>
+    <link rel="shortcut icon" href="assets/favi.png">
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <script type="text/javascript">
+        function dis(){
+            var ul = document.getElementById("navul");
+            if(ul.style.display == 'none'){
+                ul.style.display = 'block';
+            }else{
+                ul.style.display = 'none';
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="header in">
+            <div class="headerIn">
+                <div class="colGroup">
+                    <div>
+                        <div class="left">
+                            <div class="left-a">
+                                <a href="https://mail.google.com/mail/index.html?authuser=0&ogbl">Gmail</a>
+                            </div>
+                            <div class="left-a">
+                                <a href="https://www.google.co.kr/imghp?hl=ko&authuser=0&ogbl">이미지</a>
+                            </div>
+                            <div class="gb_Nc">
+                                <div class="gb_B">
+                                    <div class="gb_zf">
+                                        <img class="gb_C" src="assets/dots-menu.png" width="16" height="16">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="gb_Na">
+                                <div class="gb_zf">
+                                    <img class="gb_K" src="assets/user.png" width="20" height="20" style="border-radius: 70px">
+                                </div>
+                            </div>
+                            <div style="overflow: hidden; position: absolute; top: 0px; visibility: hidden; width: 328px; z-index: 991; height: 0px; margin-top: 57px; transition: height 0.3s ease-in-out 0s; right: 0px; margin-right: 4px;">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="logo">
+            <div class="logo-image">
+                <img alt="Google" height="92" src="assets/logo.png" width="272">
+            </div>
+        </div>
+        <div class="search">
+            <div class="search-form">
+                <div class="inner">
+                    <div class="bar">
+                        <div class="bar-in">
+                            <div class="bar-search">
+                                <span><img alt="search" src="assets/search.png" heigth="16" width="16"></span>
+                            </div>
+                            <div class="search-bar">
+                                <div class="search-bar-in"></div>
+                                <input class="search-bar-input" maxlength="2048" name="q" type="text" spellcheck="false"
+                                title="검색" value aria-label="검색">
+                            </div>
+                            <div class="search-buttons">
+                                <div class="ex">
+                                    <img src="assets/close.png" width="16" height="16">
+                                </div>
+                                <span class="slash"></span>
+                                <div class="keyboard">
+                                    <img src="assets/keyboard.png" width="16" heigth="16">
+                                </div>
+                                <div class="mic">
+                                    <img src="assets/voice.png" width="16" heigth="16">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="options">
+                        <center>
+                            <input class="options-search" value="Google 검색" aria-label="Google 검색" name="btnK"
+                                   type="submit">
+                            <input class="options-feel" value="I'm Feeling Lucky" aria-label="I'm Feeling Lucky" name="btnI"
+                                   type="submit" >
+                        </center>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-margin">
+
+        </div>
+        <div class="bottom-info">
+            <div class="country">대한민국</div>
+            <div class="bottom-nav">
+                <div class="nav-left">
+                    <a href="https://about.google/index.html?utm_source=google-KR&utm_medium=referral&utm_campaign=hp-footer&fg=1">Google 정보</a>
+                    <a href="https://www.google.com/intl/ko_kr/ads/index.html?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">광고</a>
+                    <a href="https://www.google.com/services/index.html?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">비즈니스</a>
+                    <a href="https://google.com/search/howsearchworks/index.html?fg=1">검색의 원리</a>
+                </div>
+                <div class="nav-right">
+                    <a href="https://policies.google.com/privacy?hl=ko&fg=1">개인정보처리방침</a>
+                    <a href="https://policies.google.com/terms?hl=ko&fg=1">약관</a>
+                    <div class="nav-btn">
+                        <ul id='navul' class="nav-ul" role="menu" style="bottom: 47px; right:0px; display: none">
+                            <li role="none"><a>검색 설정</a></li>
+                            <li role="none"><a>고급검색</a></li>
+                            <li role="none"><a>Google 검색에 표시되는 데이터</a></li>
+                            <li role="none"><a>검색 기록</a></li>
+                            <li role="none"><a>검색 도움말</a></li>
+                            <li role="none"><a>의견 보내기</a></li>
+                        </ul>
+                        <button onclick="dis()">설정</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

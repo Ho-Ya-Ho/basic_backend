@@ -1,0 +1,9 @@
+{
+  "dev" : {
+    "username" : "kim",
+    "password" : "qwer",
+    "database" : "TESTDB",
+    "host" : "127.0.0.1",
+    "dialect" : "mysql"
+  }
+}
